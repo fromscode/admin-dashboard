@@ -109,12 +109,31 @@ li {
   display: inline;
 }
 
+.side-bar {
+  /* padding-left: 10px; */
+}
+
 .side-bar > h1 {
+  font-size: 25px;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 .side-bar li {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 5fr;
+  margin: 10px auto;
+  align-items: center;
+  gap: 15px;
+}
+.side-bar > .nav-list {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.side-bar .icon {
+  justify-self: flex-end;
 }
