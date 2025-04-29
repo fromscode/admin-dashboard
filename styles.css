@@ -62,7 +62,7 @@ main {
   display: flex;
 }
 
-.greeting :nth-child(3) {
+.greeting > .new-btn {
   margin-left: auto;
 }
 
