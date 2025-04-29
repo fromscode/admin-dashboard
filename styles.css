@@ -51,6 +51,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  padding: 10px;
 }
 
 main {
@@ -72,4 +73,23 @@ main {
 
 .main-content > * {
   flex: auto;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.projects > h3 {
+  align-self: flex-end;
+  grid-column: 1 / -1;
+}
+
+.extras {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending {
+  margin-top: auto;
 }
