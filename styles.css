@@ -47,3 +47,29 @@
 }
 
 /* ACTUAL CSS STARTS FROM HERE : */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting {
+  display: flex;
+}
+
+.greeting :nth-child(3) {
+  margin-left: auto;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content > * {
+  flex: auto;
+}
