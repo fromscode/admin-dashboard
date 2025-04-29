@@ -53,8 +53,7 @@
 body {
   font-family: "Inter", sans-serif;
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  padding: 10px;
+  grid-template-columns: 1fr 5fr;
 }
 
 main {
@@ -110,7 +109,10 @@ li {
 }
 
 .side-bar {
-  /* padding-left: 10px; */
+  min-height: 100vh;
+  background-color: #0099ff;
+  color: white;
+  padding: 10px;
 }
 
 .side-bar > h1 {
@@ -123,17 +125,21 @@ li {
 }
 
 .side-bar li {
+  font-size: 17px;
   display: grid;
   grid-template-columns: 1fr 5fr;
-  margin: 10px auto;
+  margin: 15px auto;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
+  font-weight: 600;
 }
 .side-bar > .nav-list {
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .side-bar .icon {
   justify-self: flex-end;
+  /* from https://isotropic.co/tool/hex-color-to-css-filter/ as suggested by https://stackoverflow.com/a/53336754 */
+  filter: invert(100%) sepia(0%) saturate(4028%) hue-rotate(206deg) brightness(129%) contrast(109%);  
 }
