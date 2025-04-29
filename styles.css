@@ -96,3 +96,25 @@ main {
 .trending {
   margin-top: auto;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  display: inline;
+}
+
+.side-bar > h1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.side-bar li {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
