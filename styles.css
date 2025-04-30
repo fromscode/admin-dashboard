@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+  --color-sidebar: #0099ff;
+}
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -63,6 +67,9 @@ main {
 
 .greeting {
   display: flex;
+  padding: 20px 50px;
+  gap: 30px;
+  align-items: center;
 }
 
 .greeting > .new-btn {
@@ -110,7 +117,7 @@ li {
 
 .side-bar {
   min-height: 100vh;
-  background-color: #0099ff;
+  background-color: var(--color-sidebar);
   color: white;
   padding: 10px;
 }
@@ -178,4 +185,23 @@ main {
 .top-row > span {
   min-width: 150px;
   font-weight: 700;
+}
+
+.main-profile-circle {
+  height: 80px;
+  min-width: 80px;
+  background-color: goldenrod;
+  border-radius: 100px;
+}
+
+.greeting > button {
+  background-color: var(--color-sidebar);
+  border: 0px;
+  min-width: 100px;
+  min-height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
 }
