@@ -223,7 +223,6 @@ li {
   background-color: white;
   box-shadow: rgb(128, 128, 128, 0.5) 7px 7px 10px;
   border-radius: 10px;
-  padding: 20px 20px;
 }
 
 .main-content {
@@ -243,8 +242,10 @@ li {
   border-left-width: 10px;
   border-left-style: solid;
   min-width: 300px;
-  min-height: 200px;
+  min-height: 210px;
   justify-self: center;
+
+  padding: 30px 20px 0px;
 }
 
 .project-cards > p {
@@ -290,6 +291,10 @@ li {
 
 .extras h3 {
   margin-bottom: 10px;
+}
+
+.trending-card {
+  padding: 20px 20px;
 }
 
 .trending-list > li {
