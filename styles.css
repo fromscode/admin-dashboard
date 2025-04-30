@@ -150,7 +150,7 @@ main {
 
 .profile-circle {
   height: 40px;
-  width: 40px;
+  min-width: 40px;
   background-color: goldenrod;
   border-radius: 100px;
 }
@@ -158,8 +158,8 @@ main {
 .top-row {
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 0 15px;
+  gap: 30px;
+  padding: 0 50px;
 }
 
 .bell-ring {
@@ -171,6 +171,11 @@ main {
   border-radius: 20px;
   background-color: gainsboro;
   border: 0px;
-  min-width: 500px;
+  width: 600px;
   padding-left: 10px;
+}
+
+.top-row > span {
+  min-width: 150px;
+  font-weight: 700;
 }
