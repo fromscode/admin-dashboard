@@ -165,3 +165,12 @@ main {
 .bell-ring {
   margin-left: auto;
 }
+
+.top-row > input {
+  outline: none;
+  border-radius: 20px;
+  background-color: gainsboro;
+  border: 0px;
+  min-width: 500px;
+  padding-left: 10px;
+}
