@@ -253,3 +253,31 @@ li {
   margin-top: 30px;
   justify-content: flex-end;
 }
+
+.announcement-card {
+  width: 300px;
+  padding: 40px 30px;
+}
+
+.announcement-card h6 {
+  font-size: 17px;
+}
+
+.announcement-card p {
+  opacity: 0.6;
+  line-height: 17px;
+}
+
+.announcement-list li {
+  padding: 20px 0px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+} 
+
+.announcement-list>li:last-child {
+  padding-bottom: 0px;
+  border: none;
+}
+
+.announcement-list>li:first-child {
+  padding-top: 0px;
+}
