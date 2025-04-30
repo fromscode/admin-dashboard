@@ -143,3 +143,25 @@ li {
   /* from https://isotropic.co/tool/hex-color-to-css-filter/ as suggested by https://stackoverflow.com/a/53336754 */
   filter: invert(100%) sepia(0%) saturate(4028%) hue-rotate(206deg) brightness(129%) contrast(109%);  
 }
+
+main {
+  padding: 10px;
+}
+
+.profile-circle {
+  height: 40px;
+  width: 40px;
+  background-color: goldenrod;
+  border-radius: 100px;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.bell-ring {
+  margin-left: auto;
+}
