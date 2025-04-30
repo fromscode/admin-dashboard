@@ -78,9 +78,11 @@ main {
 }
 
 .main-content {
+  gap: 20px;
   flex: auto;
   display: flex;
   background-color: var(--color-grey);
+  align-items: flex-start;
 }
 
 .main-content > * {
@@ -89,18 +91,20 @@ main {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
 .projects > h3 {
   align-self: flex-end;
   grid-column: 1 / -1;
+  margin-bottom: -10px;
 }
 
 .extras {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .trending {
@@ -223,7 +227,7 @@ li {
 }
 
 .main-content {
-  padding: 20px 20px 0px;  
+  padding: 20px 20px 20px;  
 }
 
 .projects > h3 {
@@ -238,7 +242,9 @@ li {
   border-left-color: goldenrod;
   border-left-width: 10px;
   border-left-style: solid;
-  min-width: 200px;
+  min-width: 300px;
+  min-height: 200px;
+  justify-self: center;
 }
 
 .project-cards > p {
@@ -280,4 +286,8 @@ li {
 
 .announcement-list>li:first-child {
   padding-top: 0px;
+}
+
+.extras h3 {
+  margin-bottom: 10px;
 }
